@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário de Contato</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="musica.html">Músicas para programação</a>
+            <a href="aula.html">Aulas</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>    
+    <br>
+
+    <main>
+        <h2>Preencha o campo abaixo com suas informações</h2>
+        <form action="" method="get">
+            <fieldset>
+                Nome completo <input type="text" name="nome" required><br>
+                <br>
+                
+                E-mail para contato <input type="email" name="email" required><br>
+                <br>
+                
+                Gênero <br>                
+                <input type="radio" name="genero" value="1" id="g1" required>    
+                <label for="g1">Feminino</label>
+                 <br>
+                <input type="radio" name="genero" value="2" id="g2" required>
+                <label for="g2">Masculino</label><br>
+                <br>
+                
+                Raça declarada<br>
+                <select name="raca" required>
+                    <option value="1">Branca</option>
+                    <option value="1">Negra</option>
+                    <option value="1">Parda</option>
+                    <option value="1">Amarela</option>
+                </select><br>
+                <br>
+
+                Mensagem<br>
+                <textarea name="message" placeholder="Escreva aqui"></textarea>
+                <br>
+
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </main>
+    
+    <footer>
+        <p>Prof Ajax &copy; 2022</p>
+    </footer>
+</body>
+</html>
